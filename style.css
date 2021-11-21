@@ -1,0 +1,73 @@
+body , html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    font-family: 'Chau Philomene One', sans-serif;
+    font-size: 1.5rem;
+}
+
+.all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 3rem;
+    padding: 100px, 0, 100px, 0;
+}
+
+.main, .gen-saying {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.padding {
+    width: 100px;
+    height: 100px;
+}
+
+#btn-bg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#intro {
+    width: 55%;
+}
+
+#saying {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background: rgb(255, 255, 255);
+    font-family: 'Chau Philomene One', sans-serif;
+    font-size: 1.5rem;
+    border-radius: 4px;
+    border: thistle;
+    padding: 1.25em 1.25em;
+    transition: background-color 1s, font-size 1s;
+}
+
+.button:hover {
+    background-color: #e9f582;
+}
