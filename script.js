@@ -4,7 +4,7 @@ let sayingP = document.getElementById("Saying")
 let sayingsList = [
     `"it's yummy"`,
     `"fun!"`,
-    `"interesting"`,
+    `"INTERESTING"`,
     `"hmm"`,
     `"mmhmm"`,
     `"mmmm"`,
